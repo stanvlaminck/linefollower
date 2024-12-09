@@ -19,9 +19,9 @@ batteries: Lithium Batterij
 
 wireless communication: ingebouwde bluetooth 
 
-distance sensor - motors: QTR8
+distance sensor - motors: 6cm
 
-weight:
+weight: 275g
 
 speed: 
 
