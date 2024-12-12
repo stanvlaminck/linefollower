@@ -1,10 +1,8 @@
-# Sensoren proof of concept
-
-const int sensorPins[8] = {26, 25, 33, 32, 35, 34, 39, 36}; // GPIO's voor de QTR-8A
+const int sensorPins[8] = {{26, 25, 33, 32, 35, 34, 39, 36}}; // GPIO's voor de QTR-8A
 int sensorValues[8]; // Opslag voor sensorwaarden
 
 void setup() {
-  Serial.begin(115200); // Start seriële communicatie
+  Serial.begin(9600); // Start seriële communicatie
   analogReadResolution(12); // Gebruik maximale ADC-resolutie (12-bit)
 }
 
