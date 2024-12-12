@@ -1,6 +1,6 @@
 # Sensoren proof of concept
 
-const int sensorPins[8] = {13, 12, 14, 27, 26, 25, 33, 32}; // GPIO's voor de QTR-8A
+const int sensorPins[8] = {26, 25, 33, 32, 35, 34, 39, 36}; // GPIO's voor de QTR-8A
 int sensorValues[8]; // Opslag voor sensorwaarden
 
 void setup() {
