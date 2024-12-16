@@ -1,4 +1,5 @@
 Elektrischschema
+
 Ik heb een schema gemaakt met een ESP32-microcontroller, een QTR-8A-sensor, een motor driver (waarschijnlijk een L298N) en een paar DC-motoren. Hier is een kort overzicht van de belangrijkste onderdelen en enkele opgenomen:
 
 Belangrijke componenten:
