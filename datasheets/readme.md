@@ -1,4 +1,13 @@
-datasheets of the components used in this project
-[QTR-8x line following sensor.pdf](https://github.com/user-attachments/files/18030708/QTR-8x.line.following.sensor.pdf)
-[esp32-wroom-32_datasheet_en (2).pdf](https://github.com/user-attachments/files/18030722/esp32-wroom-32_datasheet_en.2.pdf)
-https://www.ti.com/lit/ds/symlink/drv8833.pdf?ts=1733399217178&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FDRV8833%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-wwe%2526utm_content%253DDRV8833%2526ds_k%253DDRV8833%2526DCM%253Dyes%2526gad_source%253D1%2526gclid%253DCj0KCQiAu8W6BhC-ARIsACEQoDC8Ry3t-9_IoxVwX6XjR0ysWp2sZUYc3oNg0dvC3QyAphx0XaddGZMaAkTbEALw_wcB%2526gclsrc%253Daw.ds
+In jouw project met de lijnvolgende robot, zullen de volgende datasheets waarschijnlijk nodig zijn:
+
+1. Microcontroller
+ESP32 datasheet: Voor informatie over de pinconfiguratie, stroomverbruik, analoge/digitale I/O-specificaties, en Bluetooth-functionaliteit.
+
+2. Motordriver
+DRV8833 datasheet (of een vergelijkbare H-bridge driver): Voor details over de aansluiting van motoren, PWM-werking, en maximaal vermogen.
+
+3. Motoren
+DC-motor datasheet: Specificaties zoals voltage, stroom, RPM, en koppel om een goede motorbesturing te garanderen.
+
+4. Reflectance Sensor Array
+QTR-8A Reflectance Sensor Array datasheet: Om de eigenschappen van de IR-sensoren te begrijpen, inclusief gevoeligheid, stroomverbruik, en kalibratie-informatie.
