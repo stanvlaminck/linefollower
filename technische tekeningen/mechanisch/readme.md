@@ -1,4 +1,4 @@
-# Auto Chassis Project
+# Auto Chassis 
 
 In deze repository vind je twee **STL-bestanden** die gebruikt moeten worden voor het maken van het chassis van de auto. Deze bestanden zijn ontworpen om 3D-geprint te worden en vormen de basisstructuur van het voertuig.
 
