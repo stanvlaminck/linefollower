@@ -1,6 +1,6 @@
 # Elektrisch Schema voor Lijnvolgende Robot
 
-Dit project maakt gebruik van een **ESP32-microcontroller**, een **QTR-8A-sensorarray**, een **L298N-motordriver**, en een paar **DC-motoren**. Hieronder vind je een overzicht van de belangrijkste onderdelen en hun functies.
+Dit project maakt gebruik van een **ESP32-microcontroller**, een **QTR-8A-sensorarray**, een **DRV8833N-motordriver**, en een paar **DC-motoren**. Hieronder vind je een overzicht van de belangrijkste onderdelen en hun functies.
 
 ---
 
@@ -16,10 +16,10 @@ Dit project maakt gebruik van een **ESP32-microcontroller**, een **QTR-8A-sensor
   - Controleer dat de **VCC** en **GND** correct zijn aangesloten.
   - Verbind de uitgangen van de sensorarray met de juiste **GPIO-pinnen** van de ESP32.
 
-### 3. **Motordriver (L298N)**
-- De L298N is verantwoordelijk voor het besturen van de DC-motoren.
+### 3. **Motordriver (DRV8833)**
+- De DRV8833N is verantwoordelijk voor het besturen van de DC-motoren.
 - **Aansluitingen**:
-  - Verbind de signaalpinnen van de ESP32 met de correcte besturingspinnen van de L298N.
+  - Verbind de signaalpinnen van de ESP32 met de correcte besturingspinnen van de DRV8833N.
   - Zorg ervoor dat de spanning en stroom van de motoren compatibel zijn met de driver.
 
 ### 4. **DC-Motoren**
