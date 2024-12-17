@@ -1,22 +1,37 @@
-Elektrischschema
+# Elektrisch Schema voor Lijnvolgende Robot
 
-Ik heb een schema gemaakt met een ESP32-microcontroller, een QTR-8A-sensor, een motor driver (waarschijnlijk een L298N) en een paar DC-motoren. Hier is een kort overzicht van de belangrijkste onderdelen en enkele opgenomen:
+Dit project maakt gebruik van een **ESP32-microcontroller**, een **QTR-8A-sensorarray**, een **L298N-motordriver**, en een paar **DC-motoren**. Hieronder vind je een overzicht van de belangrijkste onderdelen en hun functies.
 
-Belangrijke componenten:
+---
 
+## Belangrijke Componenten
 
-ESP32 : Dit is de hoofdmicrocontroller die de verwerking doet. Zorg ervoor dat de voedingsupply stabiel is.
+### 1. **ESP32 Microcontroller**
+- De ESP32 is de hoofdmicrocontroller die alle verwerking uitvoert.
+- **Let op**: Zorg ervoor dat de voedingsspanning stabiel is om storingen te voorkomen.
 
+### 2. **QTR-8A Reflectiesensor Array**
+- Deze array wordt gebruikt voor lijndetectie.
+- **Aandachtspunten**:
+  - Controleer dat de **VCC** en **GND** correct zijn aangesloten.
+  - Verbind de uitgangen van de sensorarray met de juiste **GPIO-pinnen** van de ESP32.
 
-QTR-8A :Dit is een array van reflectiesensoren voor lijndetectie. Controleer of VCC en GND goed zijn aangesloten en dat de uitgangen correct zijn verbonden met de GPIO-pinnen van de ESP32.
+### 3. **Motordriver (L298N)**
+- De L298N is verantwoordelijk voor het besturen van de DC-motoren.
+- **Aansluitingen**:
+  - Verbind de signaalpinnen van de ESP32 met de correcte besturingspinnen van de L298N.
+  - Zorg ervoor dat de spanning en stroom van de motoren compatibel zijn met de driver.
 
+### 4. **DC-Motoren**
+- De motoren zorgen voor de aandrijving van de robot.
+- **Tip**: Controleer of de motoren geschikt zijn voor de spanning en stroom die de L298N levert.
 
-Motoraandrijving (L298N) :Deze verbindt met de ESP32 en het bestuur van de motoren. Zorg ervoor dat de signaalpinnen van de ESP32 goed zijn aangesloten op de juiste besturingspinnen van de L298N.
+### 5. **DIP-schakelaar**
+- Deze wordt gebruikt om verschillende instellingen of modi te selecteren.
+- **Configuratie**:
+  - Zorg ervoor dat de DIP-schakelaar correct is aangesloten.
+  - Verbind de DIP-uitgangen met de ESP32, zodat de microcontroller de instellingen kan uitlezen.
 
+---
 
-DC-motoren :Zorg ervoor dat ze geschikt zijn voor de spanning en stroom die door de driver wordt geleverd.
-
-
-DIP-schakelaar : Dit kan worden gebruikt om verschillende modi van instellingen te selecteren. Zorg ervoor dat deze goed is geconfigureerd en dat de ESP32 de instellingen kunnen lezen.
-
-
+Met dit elektrisch schema kun je een functionele lijnvolgende robot bouwen. Zorg ervoor dat alle verbindingen goed zijn gecontroleerd voordat je de hardware inschakelt!
